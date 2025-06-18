@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+}
+#offer{
+    background-color: #fff;
+    color: #464646;
+    font-weight: 400;
+    font-size: .8rem;
+    text-align: center;
+    /* padding: 1rem; */
+}
+#offer p{
+    margin: 0;
+    padding: .8rem;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* ############## LANDING PAGE PART 1 ###########3 */
+#landing-page{
+    background-color: #f5f5f7;
+}
+.content1-wrapper #span{
+    color:black;
+    font-size: 2.5rem;
+    /* margin-top: 3rem; */
+    font-weight: 600;
+}
+.content1-wrapper h1{
+    color: rgb(113, 112, 112);
+    font-size: 2.5rem;
+    font-weight: 600;
+    /* margin-top: 3rem; */
+    padding: 3rem 1.7rem;
+    /* padding: 1rem; */
+
+}
+#con1 img{
+    border: 2px solid black;
+    height: 45px;  
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#con2 img{
+    border: 2px solid black;
+    height: 45px;  
+    width: 45px;
+    padding: .5rem;
+    border-radius: 50%;
+}
+#con1 a,#con2 a{
+    text-decoration: none;
+    font-size: .8rem;
+}
+#con1 h3,#con2 h3{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0;
+
+}
+#con1,#con2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.content1-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrape1{
+    width: 70%;
+}
+.wrape2{
+    width: 25%;
+}
+@media (max-width:768px){
+    .content1-wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .content1-wrapper h1{
+        font-size: 1.7rem;
+    }
+    .content1-wrapper #span{
+        font-size: 1.7rem;
+    }
+    .wrape1{
+        width: 100%;
+    }
+    .wrape2{
+        width: 100%;
+        padding-left: 1rem;
+    }
+}
+/* ############# LANDING PAGE PART 2 ########### */
+.content2 .img-div{
+    min-width: 130px;
+    height: 170px;
+    /* border: 2px solid rgb(1, 1, 1); */
+    /* margin-right: 40px; */
+}
+.content2{
+    
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+.content2-wrapper{
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-between;
+    padding: 1.5rem;
+    scroll-behavior: smooth;
+
+    text-align: center;
+    gap: 40px;
+}
+.content2-wrapper::-webkit-scrollbar{
+    width: 0;
+}
+.img-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: .5rem;
+}
+.nextBtn,.prevBtn{
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 .5rem;
+    background-color: #fff;
+    padding: .5rem .65rem;
+    border-radius: 50%;
+}
+.nextBtn:hover{
+    background-color: #d1d1d2;
+}
+.prevBtn:hover{
+    background-color: #d1d1d2; 
+}
+/* ######################### */
+.heading h4{
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.heading span{
+    color: #6e6e73;
+}
+.diff-card{
+    max-height: 230px;
+    display: block;
+    min-width: 280px;
+    margin: 1rem 0;
+    padding: 2rem 1.5rem;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px #00000010;
+    transition: all 0.3s ease-in-out;
+}
+.diff-card:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 7px #0000003e;
+}
+.diff-card i{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.cards-wrapper{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+.cards-wrapper::-webkit-scrollbar{
+    width: 0;
+}
+.material-symbols-outlined{
+    font-size: 2.5rem ;
+}
+.card1 i{
+    color: green;
+}
+.card2 span{
+    color: #0071e3;
+}
+.card3 i{
+    font-size: 2.5rem;
+}
+.gradient-text{
+    background: linear-gradient(to right,#f8a65e,#f3695f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-text1{
+    background: linear-gradient(to right,#f8a65e,#f3695f,#0071e3,#ac39ff,#ac39ff,green,green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card4 i,.card4 span{
+    color: #ac39ff;
+}
+.card5 i,.card5 span{
+    color: green;
+}
+.card6 span{
+    color: #0071e3;
+}
+.diff-cards{
+    display: flex;
+    align-items: center;
+}
+.store-diff{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@media (max-width:768px){
+    .diff-cards{
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .store-diff{
+        padding: 0 0;
+    }
+    .heading h4{
+        margin:1rem .7rem;
+    }
+}
+
+/* ############################################################ */
+.diff-card1{
+    min-height: 490px;
+    display: block;
+    min-width: 470px;
+    /* max-width: 400.0px; */
+    margin: 1rem 0;
+    padding: 2rem 1.5rem;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px #00000010;
+    transition: all 0.3s ease-in-out;
+}
+.diff-card1:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 7px #0000003e;
+}
+.cards-wrapper1{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+.cards-wrapper1::-webkit-scrollbar{
+    width: 0;
+}
+.cards-wrapper2{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+.cards-wrapper2::-webkit-scrollbar{
+    width: 0;
+}
+.diff-card1 h6{
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 500;
+    color: #6e6e73;
+}
+.diff-card1 h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.diff-card1 p{
+    font-size: .9rem;
+}
+.unique1{
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-earth-day-specialist-help-202504?wid=4000&hei=4167&fmt=p-jpg&qlt=95&.v=cHZTdEJURVNIcmNmcWQ1YlUyV2pSZmZ6Q2ZTaDM0dDFtQTRQZitiSUxoQ3ZaQ3BPZ3VPbjZ1OE1jMHB0VHplaVQ1SVRRZnoyY2xiVHFIbFpnUnJwcmJKaWduWDhrL3RFTDJVSS83Tk9MYXNncFNxekt2MjNBWmdPdTJsTW1wWDdOcEJRdUlLK3pHczBBRDF3cDFHQ3Bn);
+    background-position:top;
+    background-size: cover;
+}
+.unique2{
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-taa-202505?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=cFEvalhFakpZVzg4RFZsWktqbXFNY0RvMUw4Rm9vb3JCaDFWOTNnU01UOVNTeEZoVVBncVRqTkNMNS9uNklFcEtYeVk3dW9BYmZDa2xxQitSOWhMaG9GTzZCL2trL3hMU1d2K2ZPcTVKWXM);
+    background-position:top;
+    background-size: cover;
+}
+.unique3{
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-TAA-202310?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=VXV6Z09DaTFST3FqTnRkTjNkSENPM1ZnVFR5VGxOMG5WYlh6ZVpnWVpmOVNTeEZoVVBncVRqTkNMNS9uNklFcGdNL0tvRHFBWjFabEJvUTIxa3lDRWI2aER5OTZhZjhhVzlPaThxMkc0QVE);
+    background-position:top;
+    background-size: cover;
+}
+.unique4{
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-card-40-business-202409_GEO_IN?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=alV4a1Q5dWpXakxENUdPdUc5bk5oL3AvbkFpTUJaVTl5YXRNYno3eGE5aXFFMHhFSDhqV0JNYUQxSWJ4aDVUMm1td3JHMmlHM0d0VzBMMGs5ZHR4WjNqb1RJQWJGSnhVM2c1V3gzR1hhMHFHUTVhN1k1UDMwUiszWWU3d2JvUTc);
+    background-position:top;
+    background-size: cover;
+    color: white;
+}
+.unique5{
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-personal-setup-202408?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=cFhHZjJBWFBWT2pMQnNFR2RGWlEwWlNLRUlsMkFxY1ZMQzZzY0tkenJrbmJpYlE0VldEazFQNXh6WFBPRkF3SmNva0xZQWFEV2ljOWRGNWZJRk4vWGpyanhrWU1SUk1JdlhicWJrdXd2djlzeDRiY2xGcWt2YVRkSWVZeUhQK1U);
+    background-position:top;
+    background-size: cover;
+}
+.unique6{
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/apple-support-app-202308_GEO_IN?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=U25QdmFIeE1NK0VtUHd0WkJwTGhqVWs3bVpiZklLN3pnSnl3R2xZTW9uTWsrNUZoNXdjRTN6Qk9kZzJzT0IxWnNtS0NkZnlUKzBRdlpRai9zMDR0cTlpRlBzVWZ0N3E4WWNsd05CSlZ3Y1VYdWdhc2hEMEFQRHFhZnZMUXBidmU);
+    background-position:top;
+    background-size: cover;
+}
+.unique-1{
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-apple-intelligence-202503_GEO_IN?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=SFNxMjRYSTFLdjBJZG1UYjBKRUNDalZCM0g0MTRQL0NONjZoQUpUNEpyYmhneHZ1c05HY3JPVWptTEVEdXNQMENJWGJVR3BNa0NheTNxZUJ3blJNRk1mSGN3NTUxbDRHZDZXK1V3b1o4a1E2RHdqelF6Qlg1YkVIVk96WFZWanZRRXB6YUhNcms5Z1pYZXdkbUhocnBn);
+    background-color: white;
+    background-position:top;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+.unique-2{
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-mothers-day-gifting-202504?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=ODZqNTg1VE5NZ3RHb1Y5anVuNWU0LytmcDNHN2dUdHNNTjJaTnEycnV2WFJjSU5pUVVGNEFDMTFiYjdEOUFsSVVrc1JZVkQ0S2s0elFpK2Y1K2lCS1NsOG1PN3FBRzN3cEphZ2ZrZllTNFpBaVR3VWVpRHAvdjJOb2ozaDYzVUc);
+    background-color: white;
+    background-position:top;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+.unique-3{
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-foy-202505?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=VHhwc1ZqUTVsMkhuSUFSRElTTHZHclpQYXpIb0pSR2UydDhnNHN2KzEwZFNTeEZoVVBncVRqTkNMNS9uNklFcEtYeVk3dW9BYmZDa2xxQitSOWhMaHVCeHBsZm91Wm5wN1IrY1JqSy9NQlU);
+    background-color: white;
+    background-position:top;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+.unique-4{
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-subscriptions-202108_GEO_UK?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=WW05TjdlcC83b2p3NDlrR3ZVbk1xYmJOQmJzSVJ3UFJiNTcwZlp0V0h2dHlPei96YzRBR0xmTitmMFBzSC9GbmVEb1lRcjg2U0o3bTMvMkR2S2VvTmt2aHJVVVRvS3hUQ0EwVk8wak9Ka0ZrYjAvQjQ5dStSWGVHOXVhVHdORkc);
+    background-color: white;
+    background-position:top;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+.unique-5{
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-applecare-202503?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=SFNxMjRYSTFLdjBJZG1UYjBKRUNDaXRXOGV1M2ZHcDVxZzhMK2cxK3dsTUloZHRRYWt5UUpyTGVwNEhDZEV3VXg4ZHpEbm5XWGdaM3BiNVRDaG55Ukc2ZjdMSUNqeUNFYjF1MU1sS2U0a3E1dDgvV3BhU1hoSzFPUEZjam5HQ2g);
+    background-color: white;
+    background-position:top;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+.unique-6{
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-homekit-202405_GEO_IN?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=UWdrNzNrY0ZiOGhRNlVuUlF4U3JoejVHYVpyWFdSYy85NGlTbU1VNHZsOU5vejA3aW9Ea2JXTXN5ZGl5bUxlemNva0xZQWFEV2ljOWRGNWZJRk4vWGgvOERJNEJMdXB2K2JwM2I2Ymhady9NOHUrVm9NR2VwSUF4RjVxaDJTOHU);
+    background-color: white;
+    background-position:top;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+.unique-1 span{
+    background: linear-gradient(to right,#0071e3,#ac39ff,#f3695f,#f3695f,#f8a65e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: .5rem;
+}   
+@media (max-width:768px){
+    .diff-card1{
+        min-width: 280px;
+    }
+    .diff-card1 h5{
+    font-size: 1.1rem;
+    font-weight: 600;
+    }
+}
+.banner-div{
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.631),rgba(0, 0, 0, 0.647)),url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000000d5;
+}
+.banner-div h1{
+   font-size: 3rem;
+   margin: .8rem;
+   font-weight: 600;
+}
+
